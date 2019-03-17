@@ -1,38 +1,49 @@
-html{
-    height: 100%;
+body{
+    background-color: rgb(36, 36, 36);
 }
-body {
-    height: 100%;
-    margin:0;
-    background-color:#2C2F33;
+.ME, .Social{
+    text-align: center;
+}
+
+@media (orientation: landscape){
+    body {
+        width: 80%;
+        height: auto;
+        display:block;
+        margin:auto;
     }
-.ME{
-    width: 100%;
-    height: 40%;
+    .ME .gitlink img{
+        width: 20%;
+        height: auto;
+        border-radius: 25%;
+    }
+    .Social a img{
+        width: 10%;
+        height: auto;
+        background-color: rgb(31, 31, 31);
+        border-radius: 45%;
+    }
+    discord iframe{
+        text-align: right;
+        position: relative;
+        margin:0% 0% 0% 0%;
+    }
 }
-.ME .gitlink img {
-    width: auto;
-    height: 25%;
-    box-shadow: 14px 7px 11px 4px black;
-    margin: 3% 42%;
-    position: absolute;
-    border-radius: 25%;
-    background: white;
-}
-.Social a img{
-    width: auto;
-    height: 12%;
-    box-shadow: 14px 7px 11px 4px black;
-    position: absolute;
-    border-radius: 50%;
-    background-color:#1f1f1f;
-}
-.Twitter img{
-    margin: -1% 38%;
-}
-.Youtube img{
-    margin: -1% 52%;
-}
-.Amazon img {
-    margin: -1% 45%;
+
+@media (orientation: portrait){
+    body {
+        display:block;
+        margin:auto;
+    }
+    .ME .gitlink img{
+        width: 50%;
+        height: auto;
+        border-radius: 25%;
+    }
+    .Social a img{
+        width: 30%;
+        height: auto;
+        background-color: rgb(31, 31, 31);
+        border-radius: 45%;
+    }
 }
