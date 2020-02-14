@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(28, 28, 28);
 }
 .ME, .Social{
     text-align: center;
@@ -28,6 +28,16 @@ body{
         position: relative;
         margin:-40% 0% 0% 0%;
     }
+    video {
+        margin:0% -30% 0% 0%;
+    }
+    video#bgvid {
+        position: fixed; right: 0; bottom: 0;
+        min-width: 100%; min-height: 100%;
+        width: auto; height: auto; z-index: -100;
+        background: url("./65517cf8-390b-47d8-8eb4-936f8d7663a9/background.png") no-repeat;
+        background-size: cover;
+      }
 }
 
 @media (orientation: portrait){
