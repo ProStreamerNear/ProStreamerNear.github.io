@@ -56,4 +56,11 @@ body{
         background-color: rgb(31, 31, 31);
         border-radius: 45%;
     }
+    video#bgvid {
+        position: fixed; right: 0; bottom: 0;
+        min-width: 100%; min-height: 100%;
+        width: auto; height: auto; z-index: -100;
+        background: url("./65517cf8-390b-47d8-8eb4-936f8d7663a9/background.png") no-repeat;
+        background-size: cover;
+      }
 }
