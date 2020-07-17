@@ -25,8 +25,8 @@ body{
     }
     discord iframe{
         text-align: right;
-        position: relative;
-        margin:-40% 0% 0% 0%;
+        position: absolute;
+        margin:5% 0% 0% 0%;
     }
     video {
         margin:0% -30% 0% 0%;
